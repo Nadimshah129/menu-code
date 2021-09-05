@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{   
+	int x;
+	printf("\n ENTER A NUMBER BETWEEN 1 AND 5:");
+	scanf("%d",&x);
+	switch (x)
+	{
+	    	case 1:
+			printf("\n YOU ORDERED FRENCH FRIES:)");
+			printf("\n YOU HAVE TO PAY A PRICE OF RS.99");
+			break;
+			
+			case 2:
+			printf("\n YOU ORDERED BURGER:)");
+			printf("\n YOU HAVE TO PAY A PRICE OF RS.129");
+			break;
+			
+			case 3:
+			printf("\n YOU ORDERED SANDWICH:)");
+			printf("\n YOU HAVE TO PAY A PRICE OF RS.149");
+			break;
+			
+			case 4:
+			printf("\n YOU ORDERED PASTA:)");
+			printf("\n YOU HAVE TO PAY A PRICE OF RS.179");
+			break;
+			
+			case 5:
+			printf("\n YOU ORDERED PIZZA:)");
+			printf("\n YOU HAVE TO PAY A PRICE OF RS.239");
+			break;
+			
+			default:
+			printf("\n THE NUMBER THAT YOU HAVE ENTERED IS NOT IN THE LIST");
+					
+	}
+	return 0;
+}
